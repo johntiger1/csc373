@@ -1,0 +1,5 @@
+A := movies \natural_join roles;
+Q := \select_{director="Kubrick"} A;
+\project_{character} Q;
+
+no natural join in this question!
